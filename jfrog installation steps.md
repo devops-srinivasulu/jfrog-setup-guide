@@ -480,16 +480,11 @@ sudo ss -lntp | grep 8082
 
 ## Step 12: Complete the initial login
 
-Follow the initial setup screen.
-
-If the installation asks you to configure an administrator password, create a strong password and save it securely.
-
-If the UI displays the default administrator login, follow the prompts to change the initial password.
-
-**Do not assume the default credentials will work for every installation.** The initial credentials and setup process can depend on the installation method and release.
-
-Once logged in, confirm that the Artifactory UI is working.
-
+default login details are :
+```
+username: admin
+password : password 
+```
 ---
 
 # PHASE 7 — Create a Docker repository in JFrog
